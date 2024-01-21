@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fira+Sans:wght@400;700&family=Inter:wght@400;500&family=Nunito+Sans:wght@400;700&family=Nunito:ital@1&family=Poppins:ital,wght@0,600;1,400&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand m-0 section-title">Personal Language Center</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navigation Menu -->
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a href="#sobre-o-restaurante" class="nav-link">
+              About the Personal Language Center
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#eventos" class="nav-link">
+              Events at the School
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#cardapio" class="nav-link">
+              How to start
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#contato" class="nav-link">
+              Where to start
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section: About the Restaurant -->
+  <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+      <!-- Carousel -->
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://cdn.pixabay.com/photo/2020/10/23/12/03/arch-5678549_1280.jpg" alt="photo of a beautiful place" class="carousel-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://cdn.pixabay.com/photo/2017/11/12/18/52/airline-2943435_1280.png" alt="photo of an airplane" class="carousel-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://cdn.pixabay.com/photo/2010/12/13/10/19/signage-2653_1280.jpg" alt="photo of a image" class="carousel-img">
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <!-- Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+        </ol>
+      </div>
+      <!-- About the Restaurant Content -->
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="https://cdn5.vectorstock.com/i/1000x1000/61/09/british-english-language-learning-class-vector-26486109.jpg" class="d-block w-100 rounded" alt="photo">
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">About <span class="text-colored">the English course</span></h2>
+              <p>
+                An English course at an English school is designed to help individuals improve their English language skills, whether they are beginners or looking to advance their proficiency. These courses are structured programs that typically consist of the following componen
+              </p>
+              <h3 class="section-title">About <span class="text-colored">the price of the course</span></h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <ul>
+                <h2>Beginner English Class:</h2>
+                <li>Course Level: Beginner</li>
+                <li>Course Level: Beginner</li>
+                <li>Price: $350</li>
+              </ul>
+              <ul>
+                <h2>Intermediate English Class:</h2>
+                <li>Course Level: Intermediate</li>
+                <li>Duration: 10-week program</li>
+                <li>Price: $350</li>
+              </ul>
+              <ul>
+                <h2>Advanced English Class:</h2>
+                <li>Course Level: Advanced </li>
+                <li>Duration: 12-week program</li>
+                <li>Price: $550</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Events -->
+    <section id="eventos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">ENGLISH <span class="text-colored">FOR ALL OCCASIONS</span></h2>
+        </div>
+        <!-- Event Cards -->
+        <div class="row mt-4">
+          <div class="col-md-4 mx-auto text-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyd1BVYlQqnESU98rAwaiRzGCNyJqLffcXGhsIq6iRw&s" alt="" class="d-block mx-auto w-100 rounded-1 mb-2 img-fluid">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-calendar-heart-fill "></i>
+              English for business
+            </h3>
+            <p>
+              In today's interconnected world, English for Business is an invaluable skill for individuals and companies alike. It bridges linguistic and cultural gaps, enabling professionals to succeed in a competitive global landscape, fostering economic growth, and supporting the expansion of international trade and cooperation.
+            </p>
+          </div>
+          <div class="col-md-4 mx-auto text-center">
+            <img src="https://www.shutterstock.com/image-photo/female-college-student-books-park-260nw-549778645.jpg" alt="photo of a student" class="d-block mx-auto w-100 rounded-1 mb-2 img-fluid">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-arrow-through-heart-fill"></i>
+              English for university students
+            </h3>
+            <p>
+              English is the dominant language of academia and research. Many of the world's most prestigious universities offer courses and publish research in English. For students, this means access to a vast repository of knowledge, from scientific journals to classic literature.
+            </p>
+          </div>
+          <div class="col-md-4 mx-auto text-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQek4WGq4_uHDrqXYe9owl2wkPAEehNqXlk2uk1QfkOCWqHC4REkVm1Bl_DaMsxgmXJie0&usqp=CAU" alt="Photo of a General English" class="d-block mx-auto w-100 rounded-1 mb-2 img-fluid">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-people-fill"></i>
+              English for exams in general
+            </h3>
+            <p>
+              General English, with its broad focus on everyday communication, serves as the gateway to the world of English language learning. It provides the fundamental tools necessary for personal and professional growth, making it a valuable asset for individuals from all walks of life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Menu -->
+    <section id="cardapio" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Our <span class="text-colored">English course</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">English for beginners</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">English for intermediates</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Advanced english</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Business english </button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">General English</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="bebidas-sem-alcool">
+                <!-- Bebidas sem álcool content -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Cola-cola">
+                    <h5 class="text-colored fw-bold mt-2">English course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">English course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Cola-cola">
+                    <h5 class="text-colored fw-bold mt-2">English course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Cola-cola">
+                    <h5 class="text-colored fw-bold mt-2">English course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Cola-cola">
+                    <h5 class="text-colored fw-bold mt-2">English course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://m.media-amazon.com/images/I/51Yr9yiPBSL._SL500_.jpg" alt="Cola-cola">
+                    <h5 class="text-colored fw-bold mt-2">Englis course</h5>
+                    <p> Beyond its practical applications, General English fosters self-expression and confidence in communication. It enables individuals to articulate their thoughts, feelings, and ideas more effectively, both in spoken and written form. </p>
+                  </div>
+                  <!-- Add your items here -->
+                </div>
+              </div>
+              <div class="tab-pane" id="bebidas-alcoolicas">
+                <!-- Bebidas alcoólicas content -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://images.sbs.com.au/dims4/default/8ebb959/2147483647/strip/true/crop/606x455+168+0/resize/960x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fyourlanguage%2Fpublic%2Fsbslearnenglish_radiowebsiteheader_1010x455_0.jpg" alt="Learn English">
+                    <h5 class="text-colored fw-bold mt-2">Learning English</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://www.shutterstock.com/shutterstock/photos/1205355067/display_1500/stock-vector-espanol-translation-spanish-open-book-with-language-hand-drawn-doodles-and-lettering-education-1205355067.jpg" alt="Learn Spanish">
+                    <h5 class="text-colored fw-bold mt-2">Learning Spanish</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <!-- Add your items here -->
+                </div>
+              </div>
+              <div class="tab-pane" id="entradas">
+                <!-- Entradas content -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://img.freepik.com/free-vector/english-teacher-concept-illustration_114360-7477.jpg" alt="Enlgish ">
+                    <h5 class="text-colored fw-bold mt-2">How to learn English faster</h5>
+                    <p>To expedite your English language learning, dedicate just 30 minutes each day to a combination of activities such as watching engaging content, listening to music you enjoy, or reading material that captivates your interest.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://previews.123rf.com/images/christianchan/christianchan1604/christianchan160400224/55149773-the-language-learning-concept-of-learn-english-for-english-education.jpg?fj=1" alt="English">
+                    <h5 class="text-colored fw-bold mt-2">How to learn English faster</h5>
+                    <p>To expedite your English language learning, dedicate just 30 minutes each day to a combination of activities such as watching engaging content, listening to music you enjoy, or reading material that captivates your interest.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDglck-rJxnkZInGWM9rmh2S4NMlec5sR_SQvg0cuBnJASrRBunFK2sUdXr7bSmWzFyE&usqp=CAU" alt="English">
+                    <h5 class="text-colored fw-bold mt-2">How to learn English faster</h5>
+                    <p>To expedite your English language learning, dedicate just 30 minutes each day to a combination of activities such as watching engaging content, listening to music you enjoy, or reading material that captivates your interest.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1aOIwxkjyNaH2CjrmqTc_3CSkgXuADaw0xf0C1_voy17dBqwPaqLu4Eiyf3dmjGaLU0A&usqp=CAU  " alt="English">
+                    <h5 class="text-colored fw-bold mt-2">How to learn English faster</h5>
+                    <p>To expedite your English language learning, dedicate just 30 minutes each day to a combination of activities such as watching engaging content, listening to music you enjoy, or reading material that captivates your interest.
+                    </p>
+                  </div>
+                  <!-- Add your items here -->
+                </div>
+              </div>
+              <div class="tab-pane" id="pratos-principais">
+                <!-- Pratos principais content -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJlNAS2C1UXMZuTA_-RsHh_PgGbk1gGM0uYIth6U_OophHfgOlQ7AdeKdPDC92C1skx0&usqp=CAU" alt="lazy person">
+                    <h5 class="text-colored fw-bold mt-2">Lazy student</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_bzWRJrCXzLeUdS3qeNGq01nAH3zsPDFWqi78O1pDpE9AUQLpobWkGzen3fFX4O9MdIg&usqp=CAU" alt="Smart student">
+                    <h5 class="text-colored fw-bold mt-2">Smart student</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 img-fluid" src="https://media.istockphoto.com/id/469957801/vector/couch-potato-cartoon-character.jpg?s=612x612&w=0&k=20&c=MCu95F22Azkyv_8bLje0i7E1p1BBUGkixsqK3W3r1VM=" alt="Coach potato person">
+                    <h5 class="text-colored fw-bold mt-2">Coach potato person</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://www.shutterstock.com/image-photo/senior-academic-professor-giving-lecture-260nw-1289917114.jpg" alt="professor">
+                    <h5 class="text-colored fw-bold mt-2">Professor</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A</p>
+                  </div>
+                  <!-- Add your items here -->
+                </div>
+              </div>
+              <div class="tab-pane" id="sobremesas">
+                <!-- Sobremesas content -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WMQzhmJu0NY1SivNPbUnMkCTpBnbdzxzHu87Pknilo-yNpKunzlpwc5ZMgKRH6AQBR8&usqp=CAU" alt="General English">
+                    <h5 class="text-colored fw-bold mt-2">General English</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkhb1yuLYlGx8D-_sLuF-0ca6mxyxVyXxHuaLlT53BGY1sJ_5lqLnlpRuTRGvC3uyCUnY&usqp=CAU" alt="General English">
+                    <h5 class="text-colored fw-bold mt-2">General English</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <!-- Add your items here -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sessao fale conosco -->
+    <section id="fale-conosco" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Contact <span class="text-colored"> us</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <!--, criando um formulario logo abaixo a div vai englobar o label e tambem o input, adicionar o bootstrap para campos e labels -->
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Your Name</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Your e-mail</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Your telephone (optional)</label>
+                <input type="tel" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Your message</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Send</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi  bi-hand-thumbs-up-fill"></i>
+                Social media
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Address
+              </h3>
+              <p>
+                Manchester Street, No. 256, Alabama Neighborhood,  Camburiú - SC </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

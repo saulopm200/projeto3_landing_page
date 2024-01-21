@@ -1,0 +1,145 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* estilizando o cabelahco,  */
+  
+  #cabecalho {
+    background-color: rgb(179, 190, 236);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  /* Estilização das seções */
+  .section-title {
+    color: black;
+    font-size: 36px;
+  }
+  
+  .text-colored {
+    color: black;
+  }
+  
+  /* Estilização dos botões */
+  .btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilização das imagens */
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilização das abas do menu do cardápio */
+  .nav-cardapio .nav-link {
+    color: black;
+  }
+  
+  .nav-cardapio .nav-link.active {
+    background-color: black;
+    color: #fff;
+  }
+  
+  /* Estilização dos ícones */
+  .bi {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  /* Estilização do formulário de contato */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilização das redes sociais */
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilização do rodapé */
+  .footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .section-title {
+      font-size: 24px;
+    }
+  
+    .bi {
+      font-size: 18px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  
+    .social-links a {
+      font-size: 20px;
+    }
+  }
+  
+  /* Custom CSS for full-width carousel images */
+  .carousel-img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%; /* Set a fixed height to maintain aspect ratio */
+  }
